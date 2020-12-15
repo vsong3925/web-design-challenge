@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Latitude</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Landing_Page.html">
+              <h1>Latitude</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"> <!--aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"-->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">  <!--class="navbar-nav me-auto mb-2 mb-lg-0"-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Landing_Page.html">Home</a>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Plots</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Plot1_Temp.html">Temperature</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Plot2_Humidity.html">Humidity</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Plot3_Cloudiness.html">Cloudiness</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Plot4_WS.html">Wind Speed</a>
+                </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Comparison.html">Comparison</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Data.html">Data</a></li>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<div class="container pt-3 pt-lg-5">
+  <div class="row justify-content-center py-4">
+    <div class="col-md-12 col-lg-6 py-2" id="box">
+      <h2>Humidity</h2>
+      <hr/>
+      <img class="fab fa-5x" id="images" src="images/Fig2.png" width = 80% height = 60%></i>
+      <p class="lead">Most of the humidity levels are scattered between 60% and 80%.</p>
+    </div>
+    <div class="col-md-12 col-lg-3 py-2" id="sidebox">
+      <h2>Visualizations</h2>
+      <hr/>
+      <div class="row justify-content-center py-2 text-center">
+        <div class="col-md-12 col-lg-6">
+          <a href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Plot1_Temp.html">
+          <img class="fab fa-5x" src="images/Fig1.png" width = 130 height = 130></i></a>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <a href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Plot2_Humidity.html">
+          <img class="fab fa-5x" src="images/Fig2.png" width = 130 height = 130></i></a>
+        </div>
+      </div>  
+      <div class="row justify-content-center py-2 text-center">
+        <div class="col-md-12 col-lg-6">
+          <a href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Plot3_Cloudiness.html">
+          <img class="fab fa-5x" src="images/Fig3.png" width = 130 height = 130></i></a>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <a href="/Users/verasong/web-design-challenge/02-Case-Assignment/WebVisualizations/Plot4_WS.html">
+          <img class="fab fa-5x" src="images/Fig4.png" width = 130 height = 130></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>
